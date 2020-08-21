@@ -1,0 +1,454 @@
+/*================ GENERAL ================*/
+body{
+  background-color: rgba(255, 255, 255, 0.863);
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+
+}
+
+*{
+  box-sizing: border-box;
+}
+
+
+
+/*================ MY CONTENAINER ================*/
+.container {
+  display: flex;
+  width: 100%;
+  max-width: 900px;
+  height: 100%;
+  box-shadow: 0px 0px 20px 0px rgb(0, 0, 0);
+  margin-left: auto;
+  margin-right: auto;
+
+
+}
+
+/*================ ASIDE GENERAL ================*/
+aside {
+  display: block;
+  width: 30%;
+
+  background-color: #42A5F5;
+  overflow-wrap: break-word;
+}
+
+aside p {
+  margin: 0;
+}
+
+aside a {
+  text-decoration: none;
+  color: black;
+}
+
+aside ul {
+  list-style: none;
+}
+
+/*================ PICTURE ================*/
+.photo img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: #1976D2 solid 3px;
+  box-shadow: 0 0 10px 0 hotpink;
+}
+
+.photo {
+  display: flex;
+  margin: auto;
+  padding: 5px;
+  justify-content: center;
+}
+
+/*================ ASIDE CONTENT ================*/
+.aside-content {
+
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  
+  width: auto;
+}
+
+.aside-content_part {
+  width: 100%;
+}
+
+.photo,
+.adress-content,
+.about-content {
+  padding: 10px 40px;
+}
+
+.contact-title,
+.about-title,
+.hobbis-title {
+  height: 30px;
+  background: rgb(255, 255, 255);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 550;
+  text-transform: uppercase;
+  padding: 5px 0;
+  color: #42A5F5;
+  overflow: hidden;
+  margin-top: 10%;
+
+
+}
+
+
+/*================ ASIDE HOBBIS ================*/
+aside i {
+  display: block;
+  color: #FFFF;
+  border: #FFFF solid 3px;
+  border-radius: 50%;
+  font-size: 25px;
+  padding: 10px;
+  margin-bottom: 10px;
+
+}
+
+.content-hobbis {
+
+  margin-top: 90%;
+  padding-top: 100%;
+
+  width: 100%;
+}
+
+.hobbis-content {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding-right: 30px;
+  padding-left: 30px;
+  margin: auto;
+
+}
+
+
+
+/*================ MAIN GENERAL ================*/
+
+
+main {
+  display: flex;
+  width: 70%;
+  overflow-wrap: break-word;
+  flex-direction: column;
+  padding: 25px 25px 0 25px;
+}
+
+hr {
+
+  width: 90%;
+  display: inline-block;
+  margin: 0 0 30px 0;
+  padding: 0;
+  text-align: left;
+  border: #42A5F5 solid 1px;
+
+}
+
+main section {
+
+  width: 100%;
+  height: 50%;
+  margin: 5px;
+  padding: 5px;
+
+
+}
+
+/*================ MAIN TITLE ================*/
+main h1 {
+  margin: 0;
+  text-transform: uppercase;
+  font-size: 70px;
+  font-weight: 500;
+  padding-top: 20px;
+}
+
+ #job-title {
+  margin: 0;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+ #hr-title {
+  width: 80px;
+  display: inline-block;
+  margin: 0 0 60px 0;
+  padding: 0;
+  text-align: left;
+}
+
+span {
+  color: #42A5F5;
+}
+
+.main-title {
+  margin-top: 5%;
+  display: flex;
+  width: 100%;
+  height: 39px;
+  align-items: center;
+  text-transform: uppercase;
+
+}
+
+.main-title h2 {
+  font-weight: 400;
+
+}
+
+.main-title i {
+  font-size: 25px;
+  padding-right: 5px;
+  color: #42A5F5;
+}
+
+
+/*================ FORMATION/EXPERIENCE ================*/
+
+
+.diploma,
+.experience {
+  display: flex;
+
+}
+
+.diploma h3,
+.experience h3 {
+  font-size: 18px;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-left: 8px;
+  margin: auto;
+  padding-top: 8px;
+}
+
+.diploma i,
+.experience i {
+  color: #42A5F5;
+  font-size: 16px;
+  margin: 16px 8px 0 10px;
+}
+
+
+.diploma-content,
+.experience-content {
+  margin-left: 10px;
+
+}
+
+.diploma-content p,
+.experience-content p {
+
+  margin-left: 8px;
+  width: 90%;
+  margin-top: 0px;
+}
+
+.diploma-info,
+.experience-info {
+
+  display: flex;
+
+}
+
+.diploma-dates,
+.experience-dates {
+
+  text-align: center;
+  height: 50%;
+  margin: 0;
+  line-height: 5px;
+  padding-top: 0;
+}
+
+.diploma-dates,
+.diploma-school,
+.diploma-dates {
+
+  margin-bottom: 10px;
+}
+
+/*================ REFERENCE ================*/
+
+.reference {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  padding: 15px 0;
+
+}
+
+.reference-content {
+  font-size: 18px;
+}
+
+.reference-name {
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.reference-email {
+  font-style: italic;
+}
+
+/*================ responsive ================*/
+
+/*================ responsive 1400px ================*/
+@media screen and (max-width: 1400px) {
+  main h1 {
+    font-size: 40px;
+  }
+  #job-title{
+    font-size: 20px;
+  }
+}
+
+/*================ responsive 1024px ================*/
+
+
+@media screen and (max-width: 1024px) {
+  .container {
+
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  /*============= responsive 1024px(aside) ==============*/
+  aside {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .contact-title,
+  .about-title,
+  .hobbis-title {
+    margin: 0;
+  }
+
+  .content-hobbis {
+    padding: 10px 0;
+    margin: 0;
+  }
+  .hobbis-content{
+    
+    padding-top: 10px;
+  }
+
+  /*================ responsive 1024px(main) ================*/
+  main {
+    width: 100%;
+  }
+
+
+  main h1 {
+    text-align: center;
+
+  }
+
+  main #job-title {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+  main #hr-title {
+    width: 39px;
+    display: none;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+  }
+
+}
+
+/*================ responsive 850/ ================*/
+@media screen and (max-width: 850px) {
+  
+  .hobbis-content{
+    
+    padding-top: 10px;
+  }
+  
+  .main-title {
+
+    justify-content: center;
+  }
+
+  hr {
+    display: block;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+ 
+
+  .diploma,
+  .experience {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .diploma-info i,
+  .experience-info i {
+    display: none;
+  }
+  .reference {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+}
+
+
+
+/*================ responsive 550px ================*/
+
+@media screen and (max-width: 550px) {
+  main h1 {
+    font-size: 30px;
+  }
+  #job-title{
+    font-size: 25px;
+  }
+}
+/*================ responsive 550px ================*/
+@media screen and (max-width: 350px){
+  .container{
+    overflow: hidden;
+  }
+}
+/*================ responsive picture ================*/
+@media screen and (max-width: 1300px) {
+  .photo img {
+    width: auto;
+
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .photo img {
+    display: none;
+  }
+
+}
