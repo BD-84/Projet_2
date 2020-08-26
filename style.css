@@ -74,7 +74,7 @@ aside li {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  
+  text-align: justify;
   width: auto;
 }
 
@@ -115,7 +115,7 @@ aside i {
   font-size: 25px;
   padding: 10px;
   margin-bottom: 10px;
-
+  
 }
 
 .content-hobbis {
@@ -242,7 +242,7 @@ span {
 .experience i {
   color: #42A5F5;
   font-size: 16px;
-  margin: 16px 8px 0 10px;
+  margin: 12px 10px 0 10px;
 }
 
 
