@@ -47,6 +47,9 @@ aside a {
 aside ul {
   list-style: none;
 }
+aside li {
+  padding-bottom: 20px;
+}
 
 /*================ PICTURE ================*/
 .photo img {
@@ -130,7 +133,7 @@ aside i {
   padding-right: 30px;
   padding-left: 30px;
   margin: auto;
-
+  text-align: justify;
 }
 
 
@@ -246,7 +249,7 @@ span {
 .diploma-content,
 .experience-content {
   margin-left: 10px;
-
+  text-align: left;
 }
 
 .diploma-content p,
@@ -267,7 +270,7 @@ span {
 .diploma-dates,
 .experience-dates {
 
-  text-align: center;
+  text-align: left;
   height: 50%;
   margin: 0;
   line-height: 5px;
@@ -278,9 +281,12 @@ span {
 .diploma-school,
 .diploma-dates {
 
-  margin-bottom: 10px;
+  margin-bottom: 10px ;
 }
-
+h3{
+  padding-left: 8px;
+  padding-bottom: 8px;
+}
 /*================ REFERENCE ================*/
 
 .reference {
@@ -373,6 +379,7 @@ span {
     padding: 0;
     text-align: left;
   }
+  
 
 }
 
@@ -416,6 +423,15 @@ span {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
+  }
+  main h3 {
+    text-align: center;
+  }
+  main p {
+    text-align: center;
+  }
+  .experience-firm {
     text-align: center;
   }
 }
