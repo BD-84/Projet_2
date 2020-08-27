@@ -379,7 +379,9 @@ h3{
     padding: 0;
     text-align: left;
   }
-  
+  .adress-content{
+    text-align: center;
+  }
 
 }
 
